@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	background: #e4e4e4;
+	
+}
+div.imgContainer{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hiden;
+	background: #e4e4e4;
+	
+}
+
+#bg img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+div.mainContent{
+	margin: 50px;
+	padding: 50px;
+	display:flex;
+	flex-wrap: wrap;	
+    justify-content: space-between;
+}
+#bg{    
+    color: white;
+}
+
+div.arrows {
+	transform: translate(-50%);
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+}
+div.arrows h1{
+    transform: rotate(90deg);
+    cursor: pointer;
+    text-align: center;
+    font-size: 80px;
+	
+}
+div.topHeader {
+	transform: translate(-50%);
+    position: absolute;
+    top: 16px;
+    left: 50%;
+}
+
+div.loginBtn {
+	transform: translate(-50%);
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    
+}
+
+div.centeredHeader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.findAlldogs{
+	transform: translate(-50%);
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+}
+div.loginBtn a:link, div.loginBtn a:visited {
+	color: white;
+	background-color: none;
+    margin:5px;
+	padding:8px 12px;
+	font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:solid 1.5px white;
+    border-radius: 24px;
+}
+div.loginBtn a:hover,div.loginBtn a:active {
+    background-color: #ffae5e;    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div.findAlldogs a:link, div.findAlldogs a:visited {
+	color: white;
+	background-color: #ffae5e;
+    margin:5px;
+	padding:8px 16px;
+	font-weight:bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:solid 3px white;
+    border-radius: 24px;
+}
+div.findAlldogs a:hover,div.findAlldogs a:active {
+    background-color: #ffc082;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div.bottomContainer{
+	background-color: #05698f;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+div.socialMediaIcons img{
+	max-width: 18px;
+	margin: 5px;
+}
+
+div.dog_list {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5efeb;
+   	width:200px;
+   	height:250px;
+    margin: 20px;
+    border-radius: 12px;
+    padding:5px;
+    text-decoration: none;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div.dog_list:hover {
+	border:solid 1px #d1d1d1;
+	transform: translateY(-10px);
+}
+div.mainContent a{
+	text-decoration: none;
+	color:#686868;	
+}
+div.block{
+     margin: auto;
+}
+div.block img{
+	width:160px;
+   	height:160px;
+}
+div.block_bottom{
+    margin: 10px;
+}
+div.block_bottom h4{
+	font-weight:100;
+}
